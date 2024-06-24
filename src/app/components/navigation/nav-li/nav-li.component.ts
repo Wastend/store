@@ -14,6 +14,6 @@ export class NavLiComponent {
   @Input()
   set category(value: string) {
     this.category_name = value;
-    this.link = `/category/${value}`;
+    this.link = `/categories/${value}`;
   }
 }
