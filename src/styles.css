@@ -1,71 +1,8 @@
-@font-face {
-    font-family: 'IMBPlexSans';
-    src: url('../src/app/data/font/IBMPlexSans-Light.ttf');
-    font-weight: 300;
-    font-style: normal;
-}
+@import url('app/styles/common/font.css');
+@import url('app/styles/common/colors.css');
 
-@font-face {
-    font-family: 'IMBPlexSans';
-    src: url('../src/app/data/font/IBMPlexSans-LightItalic.ttf');
-    font-weight: 300;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'IMBPlexSans';
-    src: url('../src/app/data/font/IBMPlexSans-Regular.ttf');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'IMBPlexSans';
-    src: url('../src/app/data/font/IBMPlexSans-Italic.ttf');
-    font-weight: 400;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'IMBPlexSans';
-    src: url('../src/app/data/font/IBMPlexSans-Medium.ttf');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'IMBPlexSans';
-    src: url('../src/app/data/font/IBMPlexSans-MediumItalic.ttf');
-    font-weight: 500;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'IMBPlexSans';
-    src: url('../src/app/data/font/IBMPlexSans-SemiBold.ttf');
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'IMBPlexSans';
-    src: url('../src/app/data/font/IBMPlexSans-SemiBoldItalic.ttf');
-    font-weight: 600;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'IMBPlexSans';
-    src: url('../src/app/data/font/IBMPlexSans-Bold.ttf');
-    font-weight: 700;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'IMBPlexSans';
-    src: url('../src/app/data/font/IBMPlexSans-BoldItalic.ttf');
-    font-weight: 700;
-    font-style: italic;
+body {
+    background-color: var(--color-background-main);
 }
 
 html,
@@ -142,4 +79,37 @@ summary {
     font-family: 'IMBPlexSans';
     line-height: 28px;
     vertical-align: baseline;
+}
+
+li,
+ol {
+    list-style-type: none;
+}
+
+a{
+    transition: .6s;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    padding: 0 40px;
+    max-width: 1600px;
+}
+
+.header-subnav-list a {
+    color: var(--color-background-main);
+}
+
+.header-subnav-list a:hover,
+.header-subnav-list a:active {
+    color: var(--color-main-light);
 }

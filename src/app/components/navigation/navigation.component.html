@@ -1,0 +1,14 @@
+<nav class="header-nav">
+    <ul class="header-nav-list">
+        <li>
+            <a routerLink="/categories" routerLinkActive="active">Categories</a>
+
+            <ul class="header-subnav-list">
+                <navli *ngFor="let category of categories" [category] = 'category'></navli>
+            </ul>
+        </li>
+        <li>
+            <a routerLink="/about" routerLinkActive="active">About us</a>
+        </li>
+    </ul>
+</nav>

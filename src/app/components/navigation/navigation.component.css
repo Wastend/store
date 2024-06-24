@@ -1,0 +1,29 @@
+.header-nav-list {
+    display: flex;
+    gap: 20px;
+}
+
+.header-nav-list li {
+    position: relative;
+}
+
+.header-nav a {
+    color: var(--color-main-dark);
+    font-weight: 600;
+    transition: .6s;
+}
+
+.header-nav a:hover {
+    color: var(--color-main-medium);
+}
+
+.header-subnav-list {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    right: -40px;
+    width: 300px;
+    background-color: var(--color-main-medium);
+    border-radius: 6px;
+    padding: 10px 20px;
+}

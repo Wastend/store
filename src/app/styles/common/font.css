@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'IMBPlexSans';
+    src: url('../../../assets/font/IBMPlexSans-Light.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IMBPlexSans';
+    src: url('../../../assets/font/IBMPlexSans-LightItalic.ttf');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'IMBPlexSans';
+    src: url('../../../assets/font/IBMPlexSans-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IMBPlexSans';
+    src: url('../../../assets/font/IBMPlexSans-Italic.ttf');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'IMBPlexSans';
+    src: url('../../../assets/font/IBMPlexSans-Medium.ttf');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IMBPlexSans';
+    src: url('../../../assets/font/IBMPlexSans-MediumItalic.ttf');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'IMBPlexSans';
+    src: url('../../../assets/font/IBMPlexSans-SemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IMBPlexSans';
+    src: url('../../../assets/font/IBMPlexSans-SemiBoldItalic.ttf');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'IMBPlexSans';
+    src: url('../../../assets/font/IBMPlexSans-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IMBPlexSans';
+    src: url('../../../assets/font/IBMPlexSans-BoldItalic.ttf');
+    font-weight: 700;
+    font-style: italic;
+}

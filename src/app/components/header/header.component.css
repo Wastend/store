@@ -1,0 +1,34 @@
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: var(--color-header);
+    box-shadow: 0 8px 8px var(--color-header);
+    margin-bottom: 10px;
+}
+
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    width: 170px;
+    height: 100px;
+}
+
+.logo svg {
+    transition: .6s;
+    fill: var(--color-main-dark);
+}
+
+.logo:hover svg,
+.logo:active svg {
+    fill: var(--color-main-medium);
+}
