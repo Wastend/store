@@ -79,6 +79,7 @@ summary {
     font-family: 'IMBPlexSans';
     line-height: 28px;
     vertical-align: baseline;
+    box-sizing: border-box;
 }
 
 li,
@@ -112,4 +113,49 @@ a:active {
 .header-subnav-list a:hover,
 .header-subnav-list a:active {
     color: var(--color-main-light);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main > *:not(router-outlet) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+}
+
+router-outlet {
+    display: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 42px;
+}
+
+h4 {
+    font-size: 36px;
+}
+
+h5 {
+    font-size: 28px;
+}
+
+h6 {
+    font-size: 24px;
 }

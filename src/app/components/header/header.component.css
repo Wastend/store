@@ -4,7 +4,7 @@ header {
     width: 100%;
     background-color: var(--color-header);
     box-shadow: 0 8px 8px var(--color-header);
-    margin-bottom: 10px;
+    margin-bottom: 90px;
 }
 
 .header-top {

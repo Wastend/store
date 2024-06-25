@@ -12,11 +12,11 @@ export class ProductService {
 
   }
 
-  getCategories(options?: any): Observable<string[]> {
+  getCategories(options?: object): Observable<string[]> {
     return this.apiService.get('https://fakestoreapi.com/products/categories', options)
   }
 
-  getProducts(options?: any): Observable<Iproduct[]> {
+  getProducts(options?: object): Observable<Iproduct[]> {
     return this.apiService.get('https://fakestoreapi.com/products', options)
   }
 }

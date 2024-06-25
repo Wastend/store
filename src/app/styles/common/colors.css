@@ -1,6 +1,9 @@
 html {
     --color-background-main: #fefefe;
     --color-header: #d8e3e9;
+    --color-blue-light: #C7F0F3;
+    --color-blue-medium: #41abb3;
+    --color-blue-dark: #3791a7;
     --color-main-light: #c4c0b7;
     --color-main-medium: #a19183;
     --color-main-dark: #554233;

@@ -16,9 +16,8 @@ import { CommonModule } from '@angular/common';
 
 export class AppComponent implements OnInit{
 
-  title = 'store';
   $categories: string[] = [];
-  $products: Iproduct[] = [];
+  
 
   constructor(
     private productServices: ProductService
@@ -30,10 +29,6 @@ export class AppComponent implements OnInit{
     this.productServices.getCategories().subscribe(categories => {
       
       this.$categories = categories || []; 
-    })
-    this.productServices.getProducts().subscribe(products => {
-      
-      this.$products = products || []; 
     })
   }
 }
