@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-product-page',
@@ -8,5 +8,4 @@ import { Component } from '@angular/core';
   styleUrl: './product-page.component.css'
 })
 export class ProductPageComponent {
-
 }

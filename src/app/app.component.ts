@@ -15,6 +15,7 @@ import { CommonModule } from '@angular/common';
 })
 
 export class AppComponent implements OnInit{
+
   title = 'store';
   $categories: string[] = [];
   $products: Iproduct[] = [];
